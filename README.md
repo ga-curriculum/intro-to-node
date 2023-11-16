@@ -1,31 +1,28 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Intro to Node](./assets/tktk-hero.png)
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
-
-## Prerequisites
-
-- tktk
-- tktk
-- tktk
+This module introduces Node.js and node packages. 
 
 ## Content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
+| [Setup](./setup/README.md) | -- | -- | -- |
+| [What is Node?](./what-is-node/README.md) | -- | -- | Introduce Node.js and its significance. |
+| [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Use node to execute JavaScript. |
+| [NPM Ecosystem](./npm-ecosystem/README.md) | -- | -- | Explore the ecosystem of Node Package Manager (NPM). |
+| [Installing a Node Package](./installing-a-node-package/README.md) | -- | -- | Learn the basics of installing a node package. |
+| [Importing Node Packages in a Script](./importing-node-packages-in-a-script/README.md) | -- | -- | Learn the basics of importing node packages in a script. |
+| [npm Practice](./npm-practice/README.md) | -- | -- | Practice installing node packages. |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [More about Node](./level-up/more-about-node.md) | -- | -- | tktk skills covered |
+| [What is `.mjs`?](./level-up/what-is-mjs.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References

@@ -1,0 +1,56 @@
+# ![Intro to Node - npm Practice](./assets/hero.png)
+
+**Learning objective:** By the end of this lesson, students will practice installing node packages.
+
+## Intalling the package
+
+To get some extra practice installing npm packages, we're going to install a package called [`prompt-sync`](https://www.npmjs.com/package/prompt-sync). `prompt-sync` provides a simple and efficient way to handle user prompts and input in Node.js scripts.
+
+Install the package using the following command:
+
+```bash
+npm i prompt-sync
+```
+
+To recap, this command will download and install the `prompt-sync` package into our project's `node_modules` directory.
+
+## Importing the module
+
+Once the package is installed, we need to import it into our Node.js script:
+
+```js
+import promptSync from `prompt-sync`;
+```
+
+## Using prompt-sync
+
+`prompt-sync` provides a simple `prompt(`) function for retrieving user input from the terminal. 
+
+Let's use it to prompt the user for their name:
+
+```js
+const name = prompt('What is your name? ');
+console.log('Hello, ' + name + '!');
+```
+
+This code prompts the user for their name using the `prompt()` function, stores the input in the `name` variable, and then greets the user using their provided name.
+
+## Handling user input with conditional statements
+
+We can also utilize user input to control the flow of our program using conditional statements. For instance, to ask the user if they like pizza and respond accordingly:
+
+```js
+const likePizza = prompt('Do you like pizza? (yes/no) ');
+
+if (likePizza === 'yes') {
+  console.log('Great! I love pizza too!');
+} else {
+  console.log('Oh, that's too bad. Pizza is delicious!');
+}
+```
+
+This code prompts the user if they like pizza, stores their response in the `likePizza` variable, and then uses an `if-else` statement to provide a different response based on their input.
+
+## Exploring `prompt-sync` documentation
+
+The `prompt-sync` module offers additional features beyond basic user input, such as prompting with default values, hiding user input, and customizing input validation. To fully explore its capabilities, refer to the module's documentation for detailed explanations and usage examples.
