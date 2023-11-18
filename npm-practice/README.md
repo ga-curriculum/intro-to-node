@@ -19,14 +19,14 @@ To recap, this command will download and install the `prompt-sync` package into 
 Once the package is installed, we need to import it into our Node.js script:
 
 ```js
-import promptSync from `prompt-sync`;
+const promptSync = require('prompt-sync');
+const prompt = promptSync()
 ```
 
+Consulting [the documentation for prompt-sync](https://www.npmjs.com/package/prompt-sync) reveals that `require('prompt-sync');` will return a function that itself generates a function that we can use.  The reason for this gets into the details of some of the extended functionality of prompt-sync, and it's not really worth going into those at the moment.  For now, just run the code in the default manner described above.
 ## Using prompt-sync
 
-`prompt-sync` provides a simple `prompt(`) function for retrieving user input from the terminal. 
-
-Let's use it to prompt the user for their name:
+Have completed the code above, we now have a `prompt` function we can use to easily get user input.  Let's use it to prompt the user for their name:
 
 ```js
 const name = prompt('What is your name? ');
