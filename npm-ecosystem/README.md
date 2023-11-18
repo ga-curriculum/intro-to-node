@@ -3,7 +3,7 @@
 **Learning objective:** By the end of this lesson, students will be able to explore the ecosystem of Node Package Manager (NPM).
 ## Node Package Manager (NPM)
 
-In addition to its own built-in modules like `fs`, node easily allows other developers to build their own modules that extends Node's capabilities.  These modules are called packages.
+In addition to its own built-in modules like `fs`, node easily allows other developers to build their own modules that extend Node's capabilities.  These modules are called packages.
 
 Node uses a package management system to distribute and easily install open-source packages called **N**ode **P**ackage **M**anager (*npm*). Usually, a package is a Node module that you can use in your own code (similar to `fs`), however, sometimes the package is a CLI tool that you run in your terminal.
 
@@ -24,4 +24,4 @@ This will give you a series of prompts.  For now just hit `Enter` for each of th
 npm init -y
 ```
 
-In either case, you'll now see that `npm` has created a `package.json` file.  Node programs use this file to track the installed npm modules that your app depends upon. Tracking these dependencies in `package.json` removes the necessity to push the app’s npm modules to the project's GitHub repo - this saves **MASSIVE** file storage and bandwidth.  When we `git clone` someone else's project for the first time, Git will download all of the code that the developer wrote without the npm modules that they installed themselves.  We can then use a single `npm` command to easily install these packages ourselves (more on this soon).
+In either case, you'll now see that `npm` has created a `package.json` file.  Node programs use this file to track the installed npm modules that your app depends upon (called dependencies). Tracking these dependencies in `package.json` removes the necessity to push the app’s npm modules to the project's GitHub repo - this saves **MASSIVE** file storage and bandwidth.  When we `git clone` someone else's project for the first time, Git will download all of the code that the developer wrote, minus the npm modules that they installed themselves.  We can then use a single `npm` command to easily install these packages ourselves (more on this soon).

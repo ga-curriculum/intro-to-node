@@ -4,9 +4,7 @@
 
 ## What is Node.js?
 
-Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code in your terminal.  It uses the same *V8 JavaScript Engine* used in the Chrome browser to run JS.
-
-Node’s environment for JS is different than that in the Chrome browser, primarily because:
+Node.js is a CLI tool that will execute JavaScript code in your terminal. N. de’s environment for JS is different than that in the browser, primarily because:
 
   - It doesn’t have a browser’s DOM or [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API).
   - Node can access your computer's networking capabilities and file system.
