@@ -1,6 +1,6 @@
 # ![Intro to Node - Setup](./assets/hero.png)
 
-By the end of the lesson our goal is to run a Node.js server on our local machine. To do this, we will need to create a new directory and a new file. Follow the step below to get started.
+By the end of the lesson, our goal is to run a Node.js server on our local machine. To do this, we must create a new directory and file. Follow the steps below to get started.
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
@@ -26,5 +26,3 @@ With the file created, open the contents of the directory in VS Code:
 ```bash
 code .
 ```
-
-
