@@ -11,6 +11,7 @@ This module introduces Node.js and node packages.
 | [Setup](./setup/README.md) | -- | -- | -- |
 | [What is Node?](./what-is-node/README.md) | -- | -- | Introduce Node.js and its significance. |
 | [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Use node to execute JavaScript. |
+| [Node Modules](./node-modules/README.md) | -- | -- | Import modules |
 | [NPM Ecosystem](./npm-ecosystem/README.md) | -- | -- | Explore the ecosystem of Node Package Manager (NPM). |
 | [Installing a Node Package](./installing-a-node-package/README.md) | -- | -- | Learn the basics of installing a node package. |
 | [Importing Node Packages in a Script](./importing-node-packages-in-a-script/README.md) | -- | -- | Learn the basics of importing node packages in a script. |

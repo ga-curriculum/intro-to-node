@@ -2,79 +2,17 @@
 
 **Learning objective:** By the end of this lesson, students will learn the basics of importing node packages in a script.
 
-## Importing CommonJS Modules into ES Modules
+## Importing CommonJS Modules into Your App
 
-You'll frequently need to import CommonJS Modules from npm into ES Modules. For example, when you see [documentation](https://www.npmjs.com/package/validator) that directs you to use `require()` like this:
-
-```js
-const validator = require('validator')
-```
-
-You can accomplish the import into an ES module with this syntax:
+Now that we've installed the Validator package, let's use it.  In your `server.js` file, add the following:
 
 ```js
-import alias from 'nameOfModule'
-```
-
-This is syntactic sugar for this syntax:
-
-```js
-import { default as alias } from 'nameOfModule'
-```
-
-Demonstrating using our validator example above:
-
-```js
-import validator from 'validator'
-```
-
-We can now import the validator package in `server.mjs` and use it!
-
-```js
-import validator from 'validator'
-
+const validator = require('validator');
 console.log(validator.isEmail('foo@bar.com'))
 ```
 
-Run node `server.mjs` to try it out.
+Run node `server.js` to try it out.
 
-## Exploring `package.json`
+`require('validator')` imports the Validator package into the `server.js` file.  The Validator NPM package itself defines what the `require()` invocation will return when importing that particular package.  This is just like the previous example with `fs`.  Each NPM package will have `require()` return something different, so it's important to consult each package's documentation to determine what the result of `require()` will be.  By viewing the [Validator documentation](https://github.com/validatorjs/validator.js),  we're able to determine that `require('validator')` will return an object that has many methods on it, each used to validate strings.
 
-Examining the `package.json` file reveals that it's structured something like this:
-
-```JSON
-{
-  "name": "first-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
-}
-```
-
-`npm` uses `package.json` as a reference to know all the following (and more) about a projects dependencies:
-- The required version of the dependency.
-- When or when not to install certain packages (dev-dependencies vs production dependencies).
-- The circumstances in which a newer version of dependency should used.
-`node` also uses it to determine things like the main script, and what module system is used by a project. Let's tell it we're going to use ES modules by adding this line right before the `"license"` line.
-
-
-```bash
-"type": "module",
-```
-
-Now node knows our project uses ES modules, so we don't have to use the `**.mjs**` extension on our files anymore! You can rename `**server.mjs**` to `**server.js**` and `**days-of-the-week.mjs**` to `**days-of-the-week.js**`, and the project should still function error free.
-
-Installing dependencies is necessary after cloning a repo or when using the starter code for a lesson. To demonstrate this, first delete the `node_modules` file.
-
-Now we can install all our app's dependencies as listed in `**package.json**` like this:
-
-```bash
- npm i
-```
-
-> 📚 The `package.json` file is a located in the root directory of a Node.js project. It contains metadata, dependencies, scripts, and configuration information for the project. The details in this file help to standardize and manage JavaScript projects, making it easier to share, collaborate, and maintain consistency across different execution environments.
+We take the result of `require('validator')` (that object with the methods on it) and assign it to a the variable `validator` so that we can use it in our code.  In the example above, we invoke the `isEmail` method to validate that `'foo@bar.com'` is a properly formatted email address.  As it turns out, `isEmail` will return `true` if it's valid and `false` otherwise.  There's no way to know this (or really anything about any NPM package) without consulting the package's documentation, so using any NPM package involves a decent amount of documentation scanning.  Being comfortable doing this takes practice, but it's a critical skill to develop.
