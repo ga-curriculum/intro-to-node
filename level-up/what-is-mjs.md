@@ -8,6 +8,6 @@ Before ES6, when *ESM (ECMAScript Modules)* was introduced, modules were not imp
 
 > 📚 *CommonJS* is a module format and specification that defines a standard for organizing and sharing JavaScript code in server-side environments, primarily used in Node.js.
 
-While CommonJS was initially designed for server-side JavaScript and became the de facto module standard for Node.js, ESM is the modern and native module system compatible with browsers and Node.js. The ESM syntax is more concise, offers better support for static analysis and tree shaking (eliminating unused code), and facilitates better performance through asynchronous loading. For these reasons, along with it being supported in all current Node versions, we will be using ES modules in this course. 
+While CommonJS was initially designed for server-side JavaScript and became the de facto module standard for Node.js, ESM is the modern and native module system compatible with browsers and Node.js. The ESM syntax is more concise, offers better support for static analysis and tree shaking (eliminating unused code), and facilitates better performance through asynchronous loading. For these reasons, along with it being supported in all current Node versions, we will be using ES modules in this course.
 
-We will need to inform Node directly that we want to treat our files as ES modules - this is what the `.mjs` file extension accomplishes for us. We'll eventually have another method to tell Node that our files are ES modules, but that's for a later time.
+We us the `.mjs` file extension to indicate that a file is an ES module. This is because Node treats files with the `.js` extension as CommonJS modules.

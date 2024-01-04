@@ -50,6 +50,8 @@ Note that the property `dependencies` contains the property `validator`, which h
 
 This information is valuable in `package.json` because it allows us to keep our dependencies out of our Git repos. This saves space and bandwidth. Once we clone the repo, we can use `npm i`, which will read the `package.json` file and easily install the missing dependencies.
 
+## 🎓 You do
+
 To demonstrate this, first delete the `node_modules` directory. This node project directory resembles how it might look immediately after you clone it from a Git repo. Remember that a Git repo is very similar to the project built, except it's missing the `node_modules` directory containing the project's dependencies.
 
 Now we can install all our app's dependencies as listed in `package.json` like this:
