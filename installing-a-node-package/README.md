@@ -58,4 +58,4 @@ Now we can install all our app's dependencies as listed in `package.json` like t
 npm i
 ```
 
-If you look at the contents of the project's directory again, `node_modules` should have been recreated.  Using `npm i` allows us to install *all* the dependencies of a project, no matter how many there are, with just one command.  We could manually install each of those packages after cloning the repo, but that can be annoying and error prone once there are more than a few packages to install.
+If you look at the contents of the project's directory again, `node_modules` should have been recreated. Using `npm i` allows us to install *all* the dependencies of a project, no matter how many there are, with just one command.  We could manually install each of those packages after cloning the repo, but that can be annoying and error prone once there are more than a few packages to install.
