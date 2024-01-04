@@ -1,27 +1,37 @@
 # ![Intro to Node - NPM Ecosystem](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to explore the ecosystem of Node Package Manager (NPM).
+
 ## Node Package Manager (NPM)
 
-In addition to its own built-in modules like `fs`, node easily allows other developers to build their own modules that extend Node's capabilities.  These modules are called packages.
+Outside of the built-in modules like `http` or `fs`, Node.js has a vast ecosystem of open-source packages that we can use in our code. These packages are distributed through a package manager called [Node Package Manager (NPM)](https://www.npmjs.com/). Not only does NPM allow us to install packages, but it also allows us to publish our own packages.
 
-Node uses a package management system to distribute and easily install open-source packages called **N**ode **P**ackage **M**anager (*npm*). Usually, a package is a Node module that you can use in your own code (similar to `fs`), however, sometimes the package is a CLI tool that you run in your terminal.
+At the heart of NPM lies a vast public registry, home to over 1.3 million open-source JavaScript packages. This centralized repository is a treasure trove of software components readily accessible to developers seeking to enhance their applications. Whether you require a simple utility library or a complex framework, the NPM registry offers something.
 
-The Node Package Manager is an integral part of the Node.js ecosystem.  It is both a command-line tool for managing JavaScript packages on your own computer as well as a way to distribute packages that you write. It enables developers to easily find, install, share, and update open-source software packages, simplifying the process of building applications with Node.js.
+> 📚 Packages can be one or several modules bundled together. For example, the [Express](https://www.npmjs.com/package/express) package is a collection of modules that allow us to create a web server.
 
-At the heart of npm lies a vast public registry, home to over 1.3 million open-source JavaScript packages. This centralized repository serves as a treasure trove of software components, readily accessible to developers seeking to enhance their applications. Whether you require a simple utility library or a complex framework, the npm registry has something to offer.
-## Creating a node app
+## Creating a Node app
 
-When starting a Node app from scratch, the first thing you should do is initialize the project:
+During our set-up, we created a folder called `intro-to-node` and a file called `server.js.` This is going to be the base of our first Node application. When starting a Node app from scratch, the first thing you should do is initialize the project:
 
 ```bash
 npm init
 ```
 
-This will give you a series of prompts.  For now just hit `Enter` for each of them.  To accept all of the default settings without being prompted, you can run this command:
+This command is going to prompt us for some information about our project. We can hit enter to accept the default values for each prompt. Once complete, NPM will create a `package.json` file in our project. We can see some of the default values we accepted included in this file. For example, the `name` of our project is `intro-to-node`, and the `version` is `1.0.0`.
+
+Alternatively, we can use the `-y` flag to accept all of the default values without being prompted:
 
 ```bash
 npm init -y
 ```
 
-In either case, you'll now see that `npm` has created a `package.json` file.  Node programs use this file to track the installed npm modules that your app depends upon (called dependencies). Tracking these dependencies in `package.json` removes the necessity to push the app’s npm modules to the project's GitHub repo - this saves **MASSIVE** file storage and bandwidth.  When we `git clone` someone else's project for the first time, Git will download all of the code that the developer wrote, minus the npm modules that they installed themselves.  We can then use a single `npm` command to easily install these packages ourselves (more on this soon).
+The `package.json` file tracks the installed NPM packages that our application depends on. These are called dependencies. Tracking these dependencies in `package.json` removes the necessity to push the app’s NPM modules to the project's GitHub repo - this saves **MASSIVE** file storage and bandwidth. When we `git clone` someone else's project for the first time, Git will download all of the code the developer wrote, minus the NPM modules they installed themselves. We can then use a single `npm` command to install these packages easily (more on this soon).
+
+> 📚 A *dependency* refers to an external library, module, or component that a project relies on to function correctly, providing pre-built functionality or reusable code to simplify development and reduce duplication of effort.
+
+## Review Questions
+
+1. What is NPM?
+2. What is a package?
+3. What is a dependency?
