@@ -1,6 +1,6 @@
 # ![Intro to Node - Installing a Node Package](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will learn the basics of installing a node package.
+**Learning objective:** By the end of this lesson, students will learn the basics of installing a Node package.
 
 ## Using packages from NPM
 

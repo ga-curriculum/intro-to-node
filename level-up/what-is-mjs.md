@@ -4,7 +4,7 @@ Before ES6, when *ESM (ECMAScript Modules)* was introduced, modules were not imp
 
 > 📚 *ESM* is the official module system introduced in ES6 to provide a standardized way to organize and share JavaScript code across client-side and server-side environments.
 
-*CommonJS* uses a different syntax to import (`require()`) and export (`module.exports`) code between modules. We will not cover these as part of the course material - but you should familiarize yourself with how they function because you'll likely see them in the wild. Check out the [node module documentation](https://nodejs.org/api/modules.html) for more.
+*CommonJS* uses a different syntax to import (`require()`) and export (`module.exports`) code between modules. We will not cover these as part of the course material - but you should familiarize yourself with how they function because you'll likely see them in the wild. Check out the [Node module documentation](https://nodejs.org/api/modules.html) for more.
 
 > 📚 *CommonJS* is a module format and specification that defines a standard for organizing and sharing JavaScript code in server-side environments, primarily used in Node.js.
 

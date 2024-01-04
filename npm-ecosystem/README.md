@@ -10,7 +10,7 @@ At the heart of NPM lies a vast public registry, home to over 1.3 million open-s
 
 > 📚 Packages can be one or several modules bundled together. For example, the [Express](https://www.npmjs.com/package/express) package is a collection of modules that allow us to create a web server.
 
-## Creating a node app
+## Creating a Node app
 
 During our set-up, we created a folder called `intro-to-node` and a file called `server.js.` This is going to be the base of our first Node application. When starting a Node app from scratch, the first thing you should do is initialize the project:
 

@@ -1,6 +1,6 @@
 # ![Intro to Node - npm Practice](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will practice installing node packages.
+**Learning objective:** By the end of this lesson, students will practice installing Node packages.
 
 ## Installing the package
 

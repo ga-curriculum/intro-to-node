@@ -1,6 +1,6 @@
 # ![Intro to Node - Importing Node Packages in a Script](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will learn the basics of importing node packages in a script.
+**Learning objective:** By the end of this lesson, students will learn the basics of importing Node packages in a script.
 
 ## Importing CommonJS Modules into Your App
 
