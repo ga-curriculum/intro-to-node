@@ -9,7 +9,7 @@ This module introduces Node.js and node packages.
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md) | -- | -- | -- |
-| [What is Node?](./what-is-node/README.md) | -- | -- | Introduce Node.js and its significance. |
+| [Concepts](./concepts/README.md) | -- | -- | Introduce Node.js and its significance. |
 | [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Use Node to execute JavaScript. |
 | [Node Modules](./node-modules/README.md) | -- | -- | Import modules |
 | [NPM Ecosystem](./npm-ecosystem/README.md) | -- | -- | Explore the ecosystem of Node Package Manager (NPM). |
@@ -29,14 +29,6 @@ This module introduces Node.js and node packages.
 ## References
 
 📖 [Reference Materials](./references/README.md)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
