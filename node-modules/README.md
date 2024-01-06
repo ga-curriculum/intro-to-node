@@ -51,9 +51,3 @@ Braking down what is happening here:
 - We use a callback function to log a message to the console once the file has been created.
 
 The callback function is very similar to the callbacks we saw in Unit 1 when dealing with browser events, except the event here is the completion of creating the file (as opposed to a user-generated event like clicking). Node has many other events that take callbacks, and we'll see some of them while creating our web server applications.
-
-## Review Questions
-
-1. What is a module?
-2. True or false: Node.js comes with several core modules.
-3. True or false: When using a new technology, it's essential to read the documentation.
