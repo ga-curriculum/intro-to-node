@@ -23,7 +23,7 @@ To understand the distinct environments of a web browser and Node.js, let’s pe
 
 > This command returns the `window` object, which represents the browser's window and includes methods and properties to manipulate the web page's content.
 
-### In node.js
+### In the terminal
 
 The Node REPL (Read-Eval-Print Loop) is an interactive shell that lets you execute Node.js code line by line.
 
@@ -53,7 +53,7 @@ document.querySelector('body');
 
 ### Testing Node features in the Browser
 
-Just like how the `window` object is not defined in Node, some objects or modules that come with Node are not accessible in the browser. Back in your browser's console, type the following:
+Just like how the `window` object is not defined in Node, some objects or modules that come with Node.js are not accessible in the browser. Back in your browser's console, type the following:
 
 ```js
 fs;
@@ -76,7 +76,7 @@ This experiment highlights how Node.js and browsers have distinct global objects
 
 ## Running javascript files in the terminal
 
-Let’s see how Node runs JavaScript programs in the terminal. Type the following JavaScript in `server.js`:
+Now let's test how Node.js enables us to run JavaScript programs in the terminal. Copy the following JavaScript code into your `server.js` file:
 
 ```js
 const multiply = (a, b) => {
