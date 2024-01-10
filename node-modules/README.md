@@ -1,8 +1,8 @@
-# ![Intro to Node - Node Modules](./assets/hero.png)
+# ![Intro to Node - Node's Built in Modules](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the concept of modules by learning how to import and use both custom and core Node.js modules, such as `fs`, in their applications.
 
-## Node modules
+## Node's built in modules
 
 In the broad context of programming, a *module* is essentially a reusable block of code. In Node.js specifically, a module refers to a JavaScript file which can be easily imported and used in other JavaScript files, allowing for code reuse and modular programming.
 

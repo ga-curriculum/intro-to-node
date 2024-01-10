@@ -1,29 +1,51 @@
 # ![Intro to Node - Level Up - More About Node](./assets/hero.png)
 
-## Why the enthusiasm for Node.js?
+**Learning Objective:** By the end of this lesson students will be able to explain why Node.js is an in demand skill for modern developers. 
 
-First and foremost, **performance** - businesses can handle more traffic with less hardware!
+## Enthusiasm for Node.js
 
-Secondly, developer **synergy** - developers can use JavaScript on both client & server; thus, becoming a full-stack dev is efficient, and companies can better utilize their developer resources across the front and back-ends.
+Node.js has garnered significant enthusiasm and adoption in the tech industry. Let's explore the reasons behind this trend.
 
-The improvements in server performance and developer productivity result in **businesses saving money**.
+### High performance
 
-Businesses saving money results in **wide adoption**:
+- **Increased Efficiency**: One of the primary reasons for Node.js's popularity is its high performance. Businesses can handle more traffic with less hardware, resulting in cost savings and improved scalability.
+
+### Developer flexibility
+
+- **JavaScript Everywhere**: Node.js allows developers to use JavaScript on both the client and server sides. This flexibility makes it easier for developers to work across the full stack, streamlining development processes.
+- **Developer Utilization**: Companies benefit from this by having a more flexible and efficient developer workforce, capable of handling both front-end and back-end development.
+
+### Business implications
+
+- **Cost Savings**: The combination of server performance and developer efficiency translates into significant cost savings for businesses.
+- **Wide Adoption**: This economic advantage has led to widespread adoption of Node.js across various industries.
 
 ![Node users from different industries](assets/originals/node-users.png)
 
-tktk hunter -- this is from https://blog.risingstack.com/what-is-node-js-used-for-2017-survey/ . do we need/want to give credit or remake it?
+*Image Source: [RisingStack Blog](https://blog.risingstack.com/what-is-node-js-used-for-2017-survey/)*
 
-Most importantly, the broad adoption of Node.js results in solid demand for Node developers!
+### Demand for Node developers
 
-## Why is Node.js so performant?
+- **Career Opportunities**: The broad adoption of Node.js has created a solid demand for skilled Node.js developers in the job market.
 
-First, it's crucial to understand how time-consuming or expensive Input/Output operations are:
+## Node.js and performance
+
+To understand why Node.js is highly performant, it's essential to recognize the impact of Input/Output operations.
+
+
+
+**Latency Impact**: Input/Output type operations, especially network requests, can be time-consuming and are often the bottleneck in web applications.
 
 ![Latency numbers every programmer should know](assets/originals/latency-numbers.png)
 
 tktk hunter -- not sure where this is originally from, but another option is to remake if you think it adds value
 
-Node's **Asynchronous / Event-driven** design enables **non-blocking** Input/Output. Thus, a typical Node server can support tens of thousands of concurrent connections! For more performance information, check the references at the end of this presentation.
+*Image illustrates the relative latencies of various operations.*
 
-> 📚 Asynchronous, event-driven design is a programming paradigm in which tasks or operations are executed concurrently and independently without blocking the execution of an application. This allows a system to continue with other tasks while waiting for the completion of time-consuming operations such as network requests.
+### Asynchronous and event-driven architecture
+
+- Node.js uses an asynchronous and event-driven design. This means that I/O operations do not block the execution of other tasks in the application.
+
+- As a result, a Node.js server can efficiently support a large number of concurrent connections without significant performance degradation.
+
+> 📚 *Asynchronous, Event-Driven Design*: This programming paradigm allows tasks to be executed concurrently and independently, improving the responsiveness and throughput of applications, especially in network-intensive scenarios.

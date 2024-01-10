@@ -27,47 +27,53 @@ To understand the distinct environments of a web browser and Node.js, let’s pe
 
 The Node REPL (Read-Eval-Print Loop) is an interactive shell that lets you execute Node.js code line by line.
 
-Open your terminal and start Node's REPL by typing:
+3. Open your terminal and start Node's REPL by typing:
 
-```bash
-node
-```
+    ```bash
+    node
+    ```
 
-Once in the Node REPL, type the following:
+4. Once in the Node REPL, type the following:
 
-```js
-window;
-```
+    ```js
+    window;
+    ```
 
-> You'll receive a `ReferenceError`, indicating that the `window` object is undefined in Node. This demonstrates that browser-specific objects like `window` and Web APIs are not available in Node.js.
+    > You'll receive a `ReferenceError`, indicating that the `window` object is undefined in Node. This demonstrates that browser-specific objects like `window` and Web APIs are not available in Node.js.
 
-We can further illustrate this point by trying to access a DOM element, which is a common browser operation:
+5. We can further illustrate this point by trying to access a DOM element, which is a common browser operation:
 
-```js
-document.querySelector('body');
-```
+    ```js
+    document.querySelector('body');
+    ```
 
-> Since the DOM is part of the web browser environment, this will also result in an error in Node.js.
+    > Since the DOM is part of the web browser environment, this will also result in an error in Node.js.
 
 
 
 ### Testing Node features in the Browser
 
-Just like how the `window` object is not defined in Node, some objects or modules that come with Node.js are not accessible in the browser. Back in your browser's console, type the following:
+Just like how the `window` object is not defined in Node, some objects or modules that come with Node.js are not accessible in the browser. 
 
-```js
-fs;
-```
+6. Back in your **browser's console**, type the following:
 
-You'll encounter a `ReferenceError` because the `fs` (File System) module is specific to Node.js and not defined in the browser.
+    ```js
+    fs;
+    ```
 
-Now, let's try this in your Node REPL. Type the following in the terminal:
+    You'll encounter a `ReferenceError` because the `fs` (File System) module is specific to Node.js and not defined in the browser.
 
-```js
-fs;
-```
+Now, let's try this in your Node REPL. 
 
-Unlike the browser, Node will return the `fs` module, which is used for file system operations in Node.js.
+7. Type the following in the **terminal**:
+
+    ```js
+    fs;
+    ```
+
+    Unlike the browser, Node will return the `fs` module, which is used for file system operations in Node.js.
+
+<br>
 
 This experiment highlights how Node.js and browsers have distinct global objects and capabilities. Node excels with backend functionalities like file system access, while browsers are equipped for frontend tasks like DOM manipulation.
 

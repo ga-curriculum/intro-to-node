@@ -20,6 +20,4 @@ Node can be used for a variety of applications, including:
 
 ## Node's Package Ecosystem
 
-Open-source libraries called packages extend Node’s functionality. Node's package ecosystem is the largest open-source ecosystem in the world.
-
 [NPM (Node Package Manager)](https://www.npmjs.com/) is the largest ecosystem of open-source libraries in the world, extending Node.js's functionality. Developers can leverage a wide array of packages to add prebuilt features to their applications and reduce development time.

@@ -2,28 +2,29 @@
 
 ## About
 
-This module introduces Node.js and node packages. 
+In this module, we'll explore the exciting world of Node.js, a powerful and versatile JavaScript runtime that has revolutionized how we build scalable and efficient web applications with Javascript on the back-end. From understanding the basics of Node.js and its ecosystem, including NPM (Node Package Manager), to importing and utilizing real Node packages, this module gives learners a practical introduction this powerful new tool. We'll unravel the reasons behind Node.js's widespread adoption and highlight its performance benefits and the flexibility it creates for full-stack development.
 
 ## Content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md) | -- | -- | -- |
-| [Concepts](./concepts/README.md) | -- | -- | Introduce Node.js and its significance. |
-| [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Use Node to execute JavaScript. |
-| [Node Modules](./node-modules/README.md) | -- | -- | Import modules |
-| [NPM Ecosystem](./npm-ecosystem/README.md) | -- | -- | Explore the ecosystem of Node Package Manager (NPM). |
-| [Installing a Node Package](./installing-a-node-package/README.md) | -- | -- | Learn the basics of installing a Node package. |
-| [Importing Node Packages in a Script](./importing-node-packages-in-a-script/README.md) | -- | -- | Learn the basics of importing Node packages in a script. |
-| [NPM Practice](./npm-practice/README.md) | -- | -- | Practice installing Node packages. |
+| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
+| [Concepts](./concepts/README.md) | -- | -- | Understanding Node.js's use for server side JavaScript |
+| [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Using Node to execute JavaScript in the terminal |
+| [Node's Built in Modules](./node-modules/README.md) | -- | -- | Using Node.js's build in modules `fs` and `http`|
+| [Intro to NPM](./intro-to-npm/README.md) | -- | -- | Using Node Package Manager (NPM) to install and manage dependencies |
+| [Setting up a Node Application](./setting-up-a-node-application/README.md) | -- | -- | Using `npm init` and understanding the `package.json`  |
+| [Installing Node Packages](./installing-node-packages/README.md) | -- | -- | Installing a Node package from the NPM registry |
+| [Importing and Using Node Packages](./importing-and-using-node-packages/README.md) | -- | -- | Importing and using Node packages from NPM |
+| [NPM Practice](./npm-practice/README.md) | -- | -- | Practice leveraging documentation when importing and testing new packages |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [More about Node](./level-up/more-about-node.md) | -- | -- | tktk skills covered |
-| [What is `.mjs`?](./level-up/what-is-mjs.md) | -- | -- | tktk skills covered |
+| [More about Node](./level-up/more-about-node.md) | -- | -- | Understanding Nodes popularity and widespread adoption |
+| [What is `.mjs`?](./level-up/what-is-mjs.md) | -- | -- | Understanding CommonJs vs ESM module usage |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References

@@ -1,10 +1,10 @@
 # ![Intro to Node - npm Practice](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will practice installing Node packages.
+**Learning objective:** By the end of this lesson, students will gain practice installing and using the node package `prompt-sync`.
 
 ## Installing the package
 
-To get some extra practice installing npm packages, we're going to install a package called [`prompt-sync`](https://www.npmjs.com/package/prompt-sync). `prompt-sync` provides a simple and efficient way to handle user input in Node.js scripts.
+To get some extra practice installing npm packages, we're going to install a package called [`prompt-sync`](https://www.npmjs.com/package/prompt-sync). `prompt-sync` provides a simple and efficient way to handle user input in Node.js.
 
 Install the package using the following command:
 
@@ -16,18 +16,18 @@ This command will download and install the `prompt-sync` package into our projec
 
 ## Importing the module
 
-Once the package is installed, we need to import it into our Node.js script:
+Once the package is installed, we need to import it:
 
 ```js
 const prompt = require('prompt-sync');
 const prompt = promptSync();
 ```
 
-Consulting [the documentation for prompt-sync](https://www.npmjs.com/package/prompt-sync) reveals that `require('prompt-sync')` will return a function that itself generates a function that we can use. The reason for this function generation is to get into the details of some of the extended functionality of prompt-sync, and it's not really worth going into those at the moment. For now, just run the code in the default manner described above.
+Consulting [the documentation for prompt-sync](https://www.npmjs.com/package/prompt-sync) reveals that `require('prompt-sync')` will return a function that itself generates a function that we can use. The reason for this function generation is to get into the details of some of the extended functionality of prompt-sync.
 
 ## Using prompt-sync
 
-Having completed the code above, we now have a `prompt` function to get user input quickly. Let's use it to prompt the user for their name:
+After importing the package, we now have a `prompt` function to get user input quickly. Let's use it to prompt the user for their name:
 
 ```js
 const name = prompt('What is your name? ');
@@ -38,7 +38,7 @@ This code prompts the user for their name using the `prompt()` function, stores 
 
 ## Handling user input with conditional statements
 
-We can also utilize user input to control the flow of our program using conditional statements. For instance, ask the user if they like pizza and respond accordingly:
+We can also utilize user input to control the flow of our program using conditional statements. For instance, you can ask the user if they like pizza and respond accordingly:
 
 ```js
 const likePizza = prompt('Do you like pizza? (yes/no) ');
