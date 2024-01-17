@@ -23,8 +23,8 @@ In this module, we'll explore the exciting world of Node.js, a powerful and vers
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
+| [CJS vs ESM Modules](./level-up/cjs-vs-esm-modules.md) | -- | -- | Understanding CommonJs vs ESM module usage |
 | [More about Node](./level-up/more-about-node.md) | -- | -- | Understanding Nodes popularity and widespread adoption |
-| [What is `.mjs`?](./level-up/what-is-mjs.md) | -- | -- | Understanding CommonJs vs ESM module usage |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
