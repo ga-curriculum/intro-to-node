@@ -21,6 +21,7 @@ With the ValidatorJS package installed, let's explore how to import and use its 
 
       > 📚 The *require* function starts by loading the specified module. If a **file path** is given for a module (such as `require('./myModule')`), it directly loads the file. If a **package name** is provided (such as`require('validator')`), Node looks for the module in the node_modules folder.
 
+
 <br>
 
 3. **Test a method**: Select a method from the `validator` docs - let's use `isEmail()`. We know from the docs that this method will return `true` or `false` depending on whether or not the value passed into this function is a valid email address. 

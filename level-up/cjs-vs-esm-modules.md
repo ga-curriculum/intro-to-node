@@ -8,7 +8,7 @@ JavaScript modules come in two main flavors: CommonJS (CJS) and ECMAScript Modul
 
 ### CommonJS (CJS) modules
 
-CommonJS modules are widely used in Node.js environments. They are known for their simplicity and ease of use, especially for server-side development.
+CommonJS (CJS) modules were created to address the lack of a native module system in JavaScript for server-side environments, particularly in Node.js. Before ECMAScript Modules (ESM) were introduced, JavaScript did not have a built-in module standard, which made code organization and reuse more challenging in large-scale applications. CommonJS modules filled this gap by providing a simple and straightforward way to define encapsulated modules of code, which could then be easily imported and used in other parts of a Node.js application. 
 
 #### Characteristics:
 
@@ -18,16 +18,27 @@ CommonJS modules are widely used in Node.js environments. They are known for the
 
 #### Example:
 
+To import:
+
 ```javascript
 const myModule = require('myModule');
+```
+
+To export:
+
+```javascript
+const myFunction = () -> {
+  console.log("Send me anywhere, Im ready!")
+}
+
 module.exports = myFunction;
 ```
 
-> Explore the [Node module documentation](https://nodejs.org/api/modules.html) for more on CommonJS
+> Explore the [Node module documentation](https://nodejs.org/api/modules.html) for more on CommonJS.
 
 ### ECMAScript modules (ESM)
 
-ECMAScript Modules are the official standard for module management in JavaScript. They are designed to be more efficient and provide better static analysis.
+ECMAScript Modules are the modern, official standard for module management in JavaScript. They were created to provide a standard, built-in module system that could be used across different environments, including both browser and server-side (Node) contexts. Prior to the introduction of ESM, JavaScript lacked a native module system, leading to the development of various non-standard module formats like CommonJS.
 
 #### Characteristics:
 
@@ -37,8 +48,20 @@ ECMAScript Modules are the official standard for module management in JavaScript
 
 #### Example:
 
+
+To import:
+
 ```javascript
 import myModule from 'myModule';
+```
+
+To export: 
+
+```javascript
+const myFunction = () -> {
+  console.log("Send me anywhere, Im ready!")
+}
+
 export default myFunction;
 ```
 
@@ -49,12 +72,12 @@ export default myFunction;
 
 ### When to use CommonJS modules:
 
-- **Server-side Development**: For Node.js server-side applications, CJS is often the go-to choice due to its synchronous nature and native support.
-- **Legacy Projects**: For existing projects built on Node.js that haven't migrated to ESM.
+ - **Node.js Applications**: CommonJS is a great choice for building applications in Node.js. It's simple to use and works well because Node.js supports it by default.
+ - **Working on Existing Projects or Legacy code**: If you're working on a project that already uses CommonJS, it's usually best to stick with it for consistency.
 
 ### When to use ECMAScript modules:
 
-- **Front-end Development**: Use ESM for client-side JavaScript due to its support for asynchronous loading and modern browser compatibility.
-- **New Node.js Projects**: For new server-side projects in Node.js, consider using ESM, especially as Node.js moves towards ESM as the standard.
-- **Cross-Environment Compatibility**: If you aim for a module to be compatible with both browser and server environments.
+**Web Development**: ECMAScript modules are ideal for websites and web applications. They work well in modern web browsers and help organize your JavaScript code efficiently.
+**Starting New Projects in Node.js**: If you're beginning a new project in Node.js and want to use the latest standards, ECMAScript modules are a good choice.
+**Sharing Code Between Browser and Server**: If you plan to use the same code in both a web browser and a Node.js server, ECMAScript modules can make this easier.
 
