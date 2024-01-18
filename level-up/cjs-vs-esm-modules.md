@@ -27,7 +27,7 @@ const myModule = require('myModule');
 To export:
 
 ```javascript
-const myFunction = () -> {
+const myFunction = () => {
   console.log("Send me anywhere, Im ready!")
 }
 
@@ -58,7 +58,7 @@ import myModule from 'myModule';
 To export: 
 
 ```javascript
-const myFunction = () -> {
+const myFunction = () => {
   console.log("Send me anywhere, Im ready!")
 }
 
