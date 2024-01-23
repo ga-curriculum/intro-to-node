@@ -2,22 +2,24 @@
 
 **Learning objective:** By the end of this lesson, students will understand what Node.js is, its unique features, and its various applications in software development.
 
-## What is Node.js?
+## What is Node.js, and why do we use it?
 
-[Node.js](https://nodejs.org/en) is an open-source, cross-platform JavaScript runtime environment. Unlike traditional JavaScript execution in a browser, Node.js runs on the server side.
+[Node.js](https://nodejs.org/en) (commonly referred to as Node) is a JavaScript *runtime environment* that enables JavaScript code to be executed outside the browser. This means Node gives developers the necessary tools to build server-side JavaScript applications.
 
-  - **Key Feature:** Node utilizes the V8 JavaScript Engine (the same engine used in Google Chrome) to compile JavaScript into machine code, enabling efficient execution of JavaScript on a server.
+> 📚 A *runtime environment* is where an application runs. It provides all the necessary resources for code written in a specific language to execute. Note that Node is ***not*** a programming language.
 
-  - **Versatility:** With Node.js, JavaScript can be used for server-side scripting, allowing developers to use a single programming language for both client-side and server-side scripts.
+Node has several core features that make it a valuable tool for developers:
 
-Node can be used for a variety of applications, including:
+- **JavaScript everywhere**: Node allows JavaScript code to be used to construct back-end applications, meaning that the same language (and developers) can build both front-end web applications and back-end server applications.
+- **Built-in libraries**: Node comes with libraries enabling features such as file system interaction and HTTP communication.
+- **Cross-platform**: Node runs on major platforms, simplifying the development and deployment of applications. This is because the same code can achieve the same functionality across multiple operating systems.
+- **Community support**: A sizable developer community and corporate backers such as Microsoft and Google mean Node has a lot of community support. Beyond this, Node has gathered a large community around [NPM (Node Package Manager)](https://www.npmjs.com/), the world's largest ecosystem of open-source libraries, extending Node's functionality. Developers can leverage various packages to add prebuilt features to their applications and reduce development time.
+- **Fast Execution:** Node utilizes the V8 JavaScript Engine (the same engine used in Google Chrome) to compile JavaScript into machine code, leading to quicker code execution.
 
-- Develop tools for automation and scripting tasks in the terminal or command prompt.
-- Create chat applications and gaming servers for real-time communication.
-- Build applications that interact with file systems for reading, writing, and modifying files.
-- Automate repetitive tasks like building projects and running tests.
-- Develop web servers to serve web pages and create RESTful APIs for client-server communication.
+These features mean that Node can be used for a variety of applications, including:
 
-## Node's Package Ecosystem
-
-[NPM (Node Package Manager)](https://www.npmjs.com/) is the largest ecosystem of open-source libraries in the world, extending Node.js's functionality. Developers can leverage a wide array of packages to add prebuilt features to their applications and reduce development time.
+- Developing tools for automation and scripting tasks in the terminal or command prompt.
+- Creating chat applications and gaming servers for real-time communication.
+- Building applications that interact with file systems for reading, writing, and modifying files.
+- Automating repetitive tasks like building projects and running tests.
+- Developing web servers to serve web pages and create RESTful APIs for client-server communication.
