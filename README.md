@@ -16,7 +16,7 @@ In this module, we'll explore the exciting world of Node.js, a powerful and vers
 | [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
 | [Concepts](./concepts/README.md) | -- | -- | Understanding Node.js's use for server side JavaScript |
 | [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Using Node to execute JavaScript in the terminal |
-| [Node's Built in Modules](./node-modules/README.md) | -- | -- | Using Node.js's build in modules `fs` and `http`|
+| [Node's Built in Modules](./node-modules/README.md) | -- | -- | Using Node.js's built in modules `fs` and `http`|
 | [Intro to NPM](./intro-to-npm/README.md) | -- | -- | Using Node Package Manager (NPM) to install and manage dependencies |
 | [Setting up a Node Application](./setting-up-a-node-application/README.md) | -- | -- | Using `npm init` and understanding the `package.json`  |
 | [Installing Node Packages](./installing-node-packages/README.md) | -- | -- | Installing a Node package from the NPM registry |
