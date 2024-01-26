@@ -20,7 +20,7 @@ Node.js has garnered significant enthusiasm and adoption in the tech industry. L
 - **Cost Savings**: The combination of server performance and developer efficiency translates into significant cost savings for businesses.
 - **Wide Adoption**: This economic advantage has led to widespread adoption of Node.js across various industries.
 
-![Node users from different industries](assets/originals/node-users.png)
+![Node users from different industries](./assets/node-users.png)
 
 *Image Source: [RisingStack Blog](https://blog.risingstack.com/what-is-node-js-used-for-2017-survey/)*
 
