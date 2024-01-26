@@ -1,4 +1,4 @@
-# ![Intro to Node - Level Up - CJS vs ESM Modules](./assets/hero.png)
+# ![Intro to Node - Level Up - CJS vs ESM Modules](./assets/cjs-vs-esm-modules.png)
 
 **Learning Objective:** Understand the key differences between CommonJS (CJS) modules and ECMAScript Modules (ESM) in JavaScript and when to use each type.
 
@@ -80,4 +80,3 @@ export default myFunction;
 - **Web Development**: ECMAScript modules are ideal for websites and web applications. They work well in modern web browsers and help organize your JavaScript code efficiently. *CommonJs modules cannot be used for client side code.*
 - **Starting New Projects in Node.js**: If you're beginning a new project in Node.js and want to use the latest standards, ECMAScript modules are a good choice.
 - **Sharing Code Between Browser and Server**: If you plan to use the same code in both a web browser and a Node.js server, ECMAScript modules can make this easier.
-

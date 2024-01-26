@@ -1,4 +1,4 @@
-# ![Intro to Node - Level Up - More About Node](./assets/hero.png)
+# ![Intro to Node - Level Up - More About Node](./assets/more-about-node.png)
 
 **Learning Objective:** By the end of this lesson students will be able to explain why Node.js is an in demand skill for modern developers. 
 
@@ -20,7 +20,7 @@ Node.js has garnered significant enthusiasm and adoption in the tech industry. L
 - **Cost Savings**: The combination of server performance and developer efficiency translates into significant cost savings for businesses.
 - **Wide Adoption**: This economic advantage has led to widespread adoption of Node.js across various industries.
 
-![Node users from different industries](assets/originals/node-users.png)
+![Node users from different industries](./assets/node-users.png)
 
 *Image Source: [RisingStack Blog](https://blog.risingstack.com/what-is-node-js-used-for-2017-survey/)*
 
@@ -32,15 +32,7 @@ Node.js has garnered significant enthusiasm and adoption in the tech industry. L
 
 To understand why Node.js is highly performant, it's essential to recognize the impact of Input/Output operations.
 
-
-
 **Latency Impact**: Input/Output type operations, especially network requests, can be time-consuming and are often the bottleneck in web applications.
-
-![Latency numbers every programmer should know](assets/originals/latency-numbers.png)
-
-tktk hunter -- not sure where this is originally from, but another option is to remake if you think it adds value
-
-*Image illustrates the relative latencies of various operations.*
 
 ### Asynchronous and event-driven architecture
 

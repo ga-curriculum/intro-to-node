@@ -1,4 +1,4 @@
-# ![Intro to Node](../assets/tktk-hero.png)
+# ![Intro to Node](../assets/hero.png)
 
 ## About
 

@@ -1,4 +1,4 @@
-# ![Intro to Node - npm Practice](./assets/hero.png)
+# ![Intro to Node - NPM Practice](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will gain practice installing and using the node package `prompt-sync`.
 

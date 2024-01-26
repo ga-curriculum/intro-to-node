@@ -1,4 +1,4 @@
-# ![Intro to Node - Importing and Using a Node Package](./assets/hero.png)
+# ![Intro to Node - Requiring and Using Node Packages](./assets/hero.png)
 
 **Learning Objective:** By the end of this lesson, students will be able to import and test methods from an installed Node package.
 
@@ -20,7 +20,6 @@ With the ValidatorJS package installed, let's explore how to import and use its 
      Using `const` ensures that the `validator` variable won't be reassigned accidentally.
 
       > 📚 The *require* function starts by loading the specified module. If a **file path** is given for a module (such as `require('./myModule')`), it directly loads the file. If a **package name** is provided (such as`require('validator')`), Node looks for the module in the node_modules folder.
-
 
 <br>
 
