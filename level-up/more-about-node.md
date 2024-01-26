@@ -32,8 +32,6 @@ Node.js has garnered significant enthusiasm and adoption in the tech industry. L
 
 To understand why Node.js is highly performant, it's essential to recognize the impact of Input/Output operations.
 
-
-
 **Latency Impact**: Input/Output type operations, especially network requests, can be time-consuming and are often the bottleneck in web applications.
 
 ![Latency numbers every programmer should know](assets/originals/latency-numbers.png)
