@@ -34,10 +34,6 @@ To understand why Node.js is highly performant, it's essential to recognize the 
 
 **Latency Impact**: Input/Output type operations, especially network requests, can be time-consuming and are often the bottleneck in web applications.
 
-![Latency numbers every programmer should know](assets/originals/latency-numbers.png)
-
-tktk hunter -- not sure where this is originally from, but another option is to remake if you think it adds value
-
 *Image illustrates the relative latencies of various operations.*
 
 ### Asynchronous and event-driven architecture
