@@ -1,4 +1,4 @@
-# ![Intro to Node](./assets/tktk-hero.png)
+# ![Intro to Node](./assets/hero.png)
 
 ## About
 
@@ -15,12 +15,12 @@ In this module, we'll explore the exciting world of Node.js, a powerful and vers
 | ------ |:----------:|:-----:| ------ |
 | [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
 | [Concepts](./concepts/README.md) | -- | -- | Understanding Node.js's use for server side JavaScript |
-| [Executing JS with Node](./executing-js-with-node/README.md) | -- | -- | Using Node to execute JavaScript in the terminal |
-| [Node's Built in Modules](./node-modules/README.md) | -- | -- | Using Node.js's built in modules `fs` and `http`|
+| [Executing JavaScript with Node](./executing-js-with-node/README.md) | -- | -- | Using Node to execute JavaScript in the terminal |
+| [Node's Built in Modules](./nodes-built-in-modules/README.md) | -- | -- | Using Node.js's built in modules `fs` and `http`|
 | [Intro to NPM](./intro-to-npm/README.md) | -- | -- | Using Node Package Manager (NPM) to install and manage dependencies |
 | [Setting up a Node Application](./setting-up-a-node-application/README.md) | -- | -- | Using `npm init` and understanding the `package.json`  |
 | [Installing Node Packages](./installing-node-packages/README.md) | -- | -- | Installing a Node package from the NPM registry |
-| [Importing and Using Node Packages](./importing-and-using-node-packages/README.md) | -- | -- | Importing and using Node packages from NPM |
+| [Requiring and Using Node Packages](./requiring-and-using-node-packages/README.md) | -- | -- | Importing and using Node packages from NPM |
 | [NPM Practice](./npm-practice/README.md) | -- | -- | Practice leveraging documentation when importing and testing new packages |
 | **Total content**                                        | -- | -- |                     |
 
