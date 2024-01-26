@@ -34,8 +34,6 @@ To understand why Node.js is highly performant, it's essential to recognize the 
 
 **Latency Impact**: Input/Output type operations, especially network requests, can be time-consuming and are often the bottleneck in web applications.
 
-*Image illustrates the relative latencies of various operations.*
-
 ### Asynchronous and event-driven architecture
 
 - Node.js uses an asynchronous and event-driven design. This means that I/O operations do not block the execution of other tasks in the application.
