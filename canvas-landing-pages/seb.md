@@ -2,7 +2,7 @@
 
 ## About
 
-In this module, we'll explore the exciting world of Node.js, a powerful and versatile JavaScript runtime that has revolutionized how we build scalable and efficient web applications with Javascript on the back-end. From understanding the basics of Node.js and its ecosystem, including NPM (Node Package Manager), to importing and utilizing real Node packages, this module gives learners a practical introduction this powerful new tool. We'll unravel the reasons behind Node.js's widespread adoption and highlight its performance benefits and the flexibility it creates for full-stack development.
+In this module, we'll explore the exciting world of Node.js, a powerful and versatile JavaScript runtime that has revolutionized how we build scalable and efficient web applications with JavaScript on the back-end. From understanding the basics of Node.js and its ecosystem, including NPM (Node Package Manager), to importing and utilizing real Node packages, this module gives learners a practical introduction this powerful new tool. We'll unravel the reasons behind Node.js's widespread adoption and highlight its performance benefits and the flexibility it creates for full-stack development.
 
 ## Content
 
@@ -22,8 +22,8 @@ In this module, we'll explore the exciting world of Node.js, a powerful and vers
 
 | Lesson | Skills |
 | ------ | ------ |
-| [CJS vs ESM Modules](../level-up/cjs-vs-esm-modules.md) | Understanding CommonJs vs ESM module usage |
-| [More about Node](../level-up/more-about-node.md) | Understanding Nodes popularity and widespread adoption |
+| [CJS vs ESM Modules](../cjs-vs-esm-modules/README.md) | Understanding CommonJs vs ESM module usage |
+| [More about Node](../more-about-node/README.md) | Understanding Nodes popularity and widespread adoption |
 
 ## References
 
