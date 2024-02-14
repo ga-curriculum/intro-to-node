@@ -1,7 +1,5 @@
 # ![Intro to Node - Concepts](./assets/hero.png)
 
-tktk Hunter, this banner should be for Concepts
-
 **Learning objective:** By the end of this lesson, students will understand what Node.js is, its unique features, and its various applications in software development.
 
 ## What is Node.js, and why do we use it?

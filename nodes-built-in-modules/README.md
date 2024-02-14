@@ -1,7 +1,5 @@
 # ![Intro to Node - Node's Built-in Modules](./assets/hero.png)
 
-^^ tktk Hunter, built-in should be hyphenated here.
-
 **Learning objective:** By the end of this lesson, students will understand the concept of modules by learning how to import and use both custom and core Node modules, such as `fs`, in their applications.
 
 ## Node's built-in modules
