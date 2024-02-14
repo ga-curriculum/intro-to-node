@@ -41,6 +41,6 @@ The `package.json` file in a Node project fills many roles, but has two primary 
 - **Lists project metadata**: Details like your project's name, version, and description.
 - **Lists *dependencies***: It lists all the external packages your project needs to function.
 
-> 📚 A *dependency* is an external library or module essential for your project to function. When you install a package and use its methods in your code, your application relies on that package to operate correctly, hence the term 'dependency.' Dependencies offer pre-built functions, making development more efficient and reducing the need to write duplicate code.
+> 📚 A *dependency* is an external library or module essential for your project to function. When you install a package and use its methods in your code, your application relies on that package to operate correctly, hence the term 'dependency'. Dependencies offer pre-built functions, making development more efficient and reducing the need to write duplicate code.
 
 Think of `package.json` in your Node project like a collection of details about a party. It holds all of the details like the name of the party, a description, where the party is, and who's throwing it. A party might also have collection of things it needs to actually be a party (its dependencies) - fun banners, food, and drinks.
