@@ -1,6 +1,6 @@
 # ![Intro to Node - Requiring and Using Node Packages](./assets/hero.png)
 
-**Learning Objective:** By the end of this lesson, students will be able to import and test methods from an installed Node package.
+**Learning Objective:** By the end of this lesson, students will be able to require and test methods from an installed Node package.
 
 ## Using a Node package
 
