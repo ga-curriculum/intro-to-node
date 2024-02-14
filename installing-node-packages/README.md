@@ -1,23 +1,23 @@
 # ![Intro to Node - Installing Node Packages](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will learn the basics of installing and using an NPM package from the NPM package registry.
+**Learning objective:** By the end of this lesson, students will learn the basics of installing and using an npm package from the npm package registry.
 
 ## Installing packages in a project
 
-With your `package.json` file in place, you're now ready to enhance your project by adding packages from the NPM registry.
+With your `package.json` file in place, you're now ready to enhance your project by adding packages from the npm registry.
 
 ### Installing a package
 
 Let's choose a practical package called `ValidatorJS` for our example. It offers a variety of string validation and sanitization methods, such as:
 
- - `isDate()`
- - `isEmail()`
- - `toBoolean()`
- - `normalizeEmail()`
- 
- These kinds of methods might be useful to us if were were collecting information from a user and needed to verify that it was ina specific format.  While we could write this code ourselves, using a package someone else has already written saves time!
+- `isDate()`
+- `isEmail()`
+- `toBoolean()`
+- `normalizeEmail()`
 
-To install this package, use the following NPM command:
+These kinds of methods might be useful to us if were were collecting information from a user and needed to verify that it was ina specific format.  While we could write this code ourselves, using a package someone else has already written saves time!
+
+To install this package, use the following npm command:
 
 ```bash
 npm i validator
@@ -52,10 +52,9 @@ After installing a package, the `package.json` is updated to reflect this change
 
 - **Version Management**: The version number helps NPM manage compatibility and updates. The caret `^` symbol allows minor updates that don't break compatibility.
 
+## Can I delete or uninstall packages?
 
-## Can I delete or uninstall packages? 
-
-Yes, npm makes it easy to manage your packages and delete or reinstall when necessary. 
+Yes, npm makes it easy to manage your packages and delete or reinstall when necessary.
 
 To **remove a package** from your project, use:
 
@@ -67,11 +66,13 @@ This command not only deletes the package from the `node_modules` folder but als
 
 ## Reinstalling node modules
 
-There might be situations where you need to delete and reinstall all your project's dependencies. NPM makes it easy by keeping inventory of your packages in the `package.json` file. 
+There might be situations where you need to delete and reinstall all your project's dependencies. NPM makes it easy by keeping inventory of your packages in the `package.json` file.
 
-Reinstalling is as easy as running `npm install`.
+Reinstalling is as easy as running `npm install` (or `npm i` for short).
 
-Let's try it! 
+By running `npm install` , all dependencies listed in `package.json` are automatically downloaded.
+
+Let's try it!
 
 ## 🎓 You Do
 
@@ -96,3 +97,7 @@ As you install more dependencies, the `node_modules` directory can become large.
 - When you clone a repository, the `node_modules` directory isn't included. Running `npm install` will recreate it by installing all packages listed in `package.json`.
 
 > 📚 To prevent Git from tracking your `node_modules`, add it to a `.gitignore` file. This file tells Git which directories and files to ignore.
+
+## `npm install`
+
+This ensures that every developer working on the project has the exact tools needed, without the overhead of transferring numerous files.

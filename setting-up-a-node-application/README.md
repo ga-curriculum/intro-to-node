@@ -1,43 +1,46 @@
 # ![Intro to Node - Setting up a Node Application](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to set up a basic Node.js application.
+**Learning objective:** By the end of this lesson, students will be able to set up a basic Node application.
 
-## Setting up your first Node.js application
+## Initializing a Node project
 
-After learning about Node.js and its package ecosystem, let's dive into setting up a Node.js application and preparing it to use Node packages.
+1. **Ensure you're in the root of your project**: In your terminal, you should be inside the `intro-to-node` directory.
 
-### Initializing a Node.js project
+2. **Project initialization**:
 
-1. **Creating the Base**: Navigate into your newly created `intro-to-node` directory. This will serve as the foundation for your Node app. 
+   From here you have two options. The first is a more customized initialization which walks you through each step and allows you to fill in details. The second is a quick initialization which automatically provides the default values.
 
-2. **Project Initialization**:
-   - Run the following command in your project's root directory:
-     ```bash
-     npm init
-     ```
-   - This initializes your project, prompting you to fill in details like project name and version. For a quick setup, you can simply press enter to accept each of the default values.
+   You can change any of these details later, no matter which option you choose. Continue with either **a.** or **b.** below. Choose only one path.
 
-3. **Quick Initialization**:
-   - Alternatively, use:
-     ```bash
-     npm init -y
-     ```
-   - This automatically accepts all default values without prompting. 
-   
-   > The result of this set up sequence is the creation of a `package.json` file in your project. We can see some of the default values we accepted included in this file. For example, the `name` of our project is `intro-to-node`, and the `version` is `1.0.0`.
+   a. **Custom initialization**:
 
+      - Run the following command in your project's root directory:
+
+        ```bash
+        npm init
+        ```
+
+      - This initializes your project, prompting you to fill in details like project name and version. For this project, press `Enter` to accept each of the default values.
+
+   b. **Quick initialization**:
+
+      - Run the following command in your project's root directory:
+
+        ```bash
+        npm init -y
+        ```
+
+      - This automatically accepts all default values without prompting.
+
+   > 🧠 The result of either sequence is the creation of a `package.json` file in your project. Open the file and check out the default values that were included. For example, the `name` of our project is `intro-to-node`, and the `version` is `1.0.0`.
 
 ## Understanding `package.json`
 
-Think of `package.json` in your Node.js project like a card catalog in a library. Just as a card catalog keeps a record of all the books and their locations, `package.json` keeps track of all the NPM packages (*dependencies*) you have installed into your application, along with other important project information.
+The `package.json` file in a Node project fills many roles, but has two primary purposes that we'll concern ourselves with for now:
 
-**Primary purpose:**
+- **Lists project metadata**: Details like your project's name, version, and description.
+- **Lists *dependencies***: It lists all the external packages your project needs to function.
 
-- **Lists Project Metadata**: Contains details like your project's name, version, and entry point.
-- **Lists Dependencies**: It lists all the external packages your project needs to function.
+> 📚 A *dependency* is an external library or module essential for your project to function. When you install a package and use its methods in your code, your application relies on that package to operate correctly, hence the term 'dependency.' Dependencies offer pre-built functions, making development more efficient and reducing the need to write duplicate code.
 
->📚 A *dependency* is an external library or module essential for your project's functionality. When you install a package and use its methods in your code, your application relies on that package to operate correctly, hence the term 'dependency.' Dependencies offer pre-built functions, making development more efficient and reducing the need to write duplicate code.
-
-### `npm install`
-
--  By running `npm install`, all dependencies listed in `package.json` are automatically downloaded. This ensures that every developer working on the project has the exact tools needed, without the overhead of transferring numerous files.
+Think of `package.json` in your Node project like a collection of details about a party. It holds all of the details like the name of the party, a description, where the party is, and who's throwing it. A party might also have collection of things it needs to actually be a party (its dependencies) - fun banners, food, and drinks.
