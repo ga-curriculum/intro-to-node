@@ -22,7 +22,7 @@ From understanding the basics of Node and its ecosystem, including npm (Node Pac
 | [Intro to npm](./intro-to-npm/README.md)                                           | -- | -- | Using Node Package Manager (npm) to install and manage dependencies. |
 | [Setting up a Node Application](./setting-up-a-node-application/README.md)         | -- | -- | Using `npm init` and understanding the `package.json`.  |
 | [Installing Node Packages](./installing-node-packages/README.md)                   | -- | -- | Installing a Node package from the npm registry. |
-| [Requiring and Using Node Packages](./requiring-and-using-node-packages/README.md) | -- | -- | Importing and using Node packages from npm .|
+| [Requiring and Using Node Packages](./requiring-and-using-node-packages/README.md) | -- | -- | Requiring and using Node packages from npm in our own apps. |
 | [npm Practice](./npm-practice/README.md)                                           | -- | -- | Practice leveraging documentation when importing and testing new packages. |
 | [CJS vs ESM Modules](./cjs-vs-esm-modules/README.md)                               | -- | -- | Understanding CommonJS vs ESM module usage. |
 | [More about Node](./more-about-node/README.md)                                     | -- | -- | Understanding Node's popularity and widespread adoption. |
