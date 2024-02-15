@@ -1,21 +1,21 @@
 # ![Intro to Node - Installing Node Packages](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will learn the basics of installing and using an npm package from the npm package registry.
+**Learning objective:** By the end of this lesson, students will learn the basics of installing and using an npm package from the npm registry.
 
 ## Installing packages in a project
 
-With your `package.json` file in place, you're now ready to enhance your project by adding packages from the npm registry.
+Now that your project has a `package.json` file, you can add packages from the npm registry!
 
 ### Installing a package
 
-Let's choose a practical package called `ValidatorJS` for our example. It offers a variety of string validation and sanitization methods, such as:
+We'll use a very popular a practical package called [validator.js](https://www.npmjs.com/package/validator) for our example. From the npm page, follow the link to their homepage on GitHub to review their documentation. You'll see that it offers a variety of string validation and sanitization methods, such as:
 
 - `isDate()`
 - `isEmail()`
 - `toBoolean()`
 - `normalizeEmail()`
 
-These kinds of methods might be useful to us if were were collecting information from a user and needed to verify that it was ina specific format.  While we could write this code ourselves, using a package someone else has already written saves time!
+These kinds of methods might be useful to us if were were collecting information from a user and needed to verify that it was in a specific format. While we could write this code ourselves, using a package someone else has already written saves us time!
 
 To install this package, use the following npm command:
 
