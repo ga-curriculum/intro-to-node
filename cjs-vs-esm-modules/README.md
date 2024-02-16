@@ -36,7 +36,7 @@ const myFunction = () => {
 module.exports = myFunction;
 ```
 
-> Explore the [Node module documentation](https://nodejs.org/api/modules.html) for more on CommonJS.
+> 🧠 Explore [Node's CJS module documentation](https://nodejs.org/api/modules.html) for more on CommonJS.
 
 ### ECMAScript modules (ESM)
 
@@ -67,6 +67,8 @@ const myFunction = () => {
 
 export default myFunction;
 ```
+
+> 🧠 Explore [Node's ESM documentation](https://nodejs.org/api/esm.html) for more on ECMAScript modules.
 
 ### When to use CommonJS modules
 

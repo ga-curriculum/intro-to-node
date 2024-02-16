@@ -2,12 +2,15 @@
 
 ## Lesson references
 
-- [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
-- [Node Core Modules](https://flaviocopes.com/node-core-modules/)
+- [Node.js](https://nodejs.org)
+- [npm (Node Package Manager)](https://www.npmjs.com/)
+- [MDN - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [Node.js API documentation - File system](https://nodejs.org/api/fs.html)
+- [Node.js API documentation - HTTP](https://nodejs.org/api/http.html)
+- [Flaviocopes - The Node Core Modules](https://flaviocopes.com/node-core-modules/)
+- [Node.js API documentation - File System - `writeFile()`](https://nodejs.org/api/fs.html#fswritefilefile-data-options-callback)
+- [Node.js - An introduction to the npm package manager](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)
 - [npm - validator](https://www.npmjs.com/package/validator)
-- [`prompt-sync`](https://www.npmjs.com/package/prompt-sync)
-
-## Level Up references
-
-- [Official support for ES modules](https://nodejs.org/api/esm.html#esm_modules_ecmascript_modules)
-- [Node Module Documentation](https://nodejs.org/api/modules.html)
+- [npm - express](https://www.npmjs.com/package/express)
+- [Node.js API documentation - Modules: CommonJS modules](https://nodejs.org/api/modules.html)
+- [Node.js API documentation - Modules: ECMAScript modules](https://nodejs.org/api/esm.html)

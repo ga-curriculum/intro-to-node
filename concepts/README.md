@@ -4,7 +4,7 @@
 
 ## What is Node.js, and why do we use it?
 
-[Node.js](https://nodejs.org/en) (commonly referred to as Node) is a JavaScript *runtime environment* that enables JavaScript code to be executed outside the browser. This means Node gives developers the necessary tools to build server-side JavaScript applications.
+[Node.js](https://nodejs.org) (commonly referred to as Node) is a JavaScript *runtime environment* that enables JavaScript code to be executed outside the browser. This means Node gives developers the necessary tools to build server-side JavaScript applications.
 
 > 📚 A *runtime environment* is where an application runs. It provides all the necessary resources for code written in a specific language to execute. Node is ***not*** a programming language.
 
