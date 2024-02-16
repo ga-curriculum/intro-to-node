@@ -24,8 +24,8 @@ One of the primary reasons for Node's popularity is its performance. Businesses 
 
 Input/output operations (when our application needs the help of external systems to perform tasks), especially network requests, can be time-consuming and are often the bottleneck in web applications.
 
-- Node uses an asynchronous and event-driven design. This means that input/output operations do not block the execution of other tasks in the application.
+- Node uses an *asynchronous and event-driven architecture*. This means that input/output operations do not block the execution of other tasks in the application.
 
 - As a result, a Node server can efficiently support a large number of concurrent connections without significant performance degradation.
 
-> 📚 *Asynchronous, Event-Driven Design*: This programming paradigm allows tasks to be executed concurrently and independently, improving the responsiveness and throughput of applications, especially in network-intensive scenarios.
+> 📚 *Asynchronous and event-driven* programming allows tasks to be executed concurrently and independently, improving the responsiveness and throughput of applications, especially in network-intensive scenarios.
