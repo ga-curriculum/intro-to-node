@@ -27,9 +27,7 @@ Let's explore how to require and use its validation methods in our project.
 
       > 📚 The *require* function loads the specified module. If a **file path** is given for a module (such as `require('./myModule')`), it directly loads the file. If a **package name** is provided (such as`require('validator')`), Node looks for the module in the node_modules folder.
 
-<br>
-
-1. **Test a method**: Select a method from the `validator` docs - let's use `isEmail()`. We know from the docs that this method will return `true` or `false` depending on whether or not the value passed into this function is a valid email address. 
+3. **Test a method**: Select a method from the `validator` docs - let's use `isEmail()`. We know from the docs that this method will return `true` or `false` depending on whether or not the value passed into this function is a valid email address.
 
    Let's try it:
 
@@ -40,15 +38,15 @@ Let's explore how to require and use its validation methods in our project.
 
      This will log whether these provided strings are valid email addresses.
 
-2. **Run your code**: Run the test file in the terminal.
+4. **Run your code**: Run the test file in the terminal.
 
      ```bash
      node server.js
      ```
+
      Check your terminal output to see the results!
 
-
-## 🎓 You Do 
+## 🎓 You Do
 
 ### Validate a date
 
@@ -56,5 +54,4 @@ Let's explore how to require and use its validation methods in our project.
 
 - Test if `'2020-12-31'` is a valid date and print the result.
 
-
-> 🧠 Some large packages even have their own website with documentation. In most cases, these packages will have a link to their website on their NPM registry page and any GitHub documentation they may have.
+> 🧠 Some large packages even have their own website with documentation. In most cases, these packages will have a link to their website on their npm registry page and any GitHub documentation they may have.
