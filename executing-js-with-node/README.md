@@ -72,7 +72,7 @@ Just like how the `window` object is not defined in Node, some objects or module
 
 This experiment highlights how Node and browsers have distinct global objects and capabilities. Node is capable of handling back-end functionalities like file system access. Browsers are equipped for front-end tasks like DOM manipulation.
 
-> 🧠 For more information, refer to Node's documentation on the [*fs*](https://nodejs.org/api/fs.html) module.
+> 🧠 For more information, refer to Node's documentation on the [`fs`](https://nodejs.org/api/fs.html) module.
 
 ## Running JavaScript files in the terminal
 
