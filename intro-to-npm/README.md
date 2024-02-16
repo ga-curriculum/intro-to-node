@@ -1,4 +1,4 @@
-# ![Intro to Node - Intro to NPM](./assets/hero.png)
+# ![Intro to Node - Intro to npm](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the role of Node Package Manager (npm) in Node development.
 

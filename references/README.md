@@ -4,7 +4,7 @@
 
 - [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 - [Node Core Modules](https://flaviocopes.com/node-core-modules/)
-- [NPM Validator](https://www.npmjs.com/package/validator)
+- [npm - validator](https://www.npmjs.com/package/validator)
 - [`prompt-sync`](https://www.npmjs.com/package/prompt-sync)
 
 ## Level Up references
