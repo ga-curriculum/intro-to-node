@@ -1,6 +1,6 @@
 # ![Intro to Node - Level Up - More About Node](./assets/hero.png)
 
-**Learning Objective:** By the end of this lesson students will be able to explain why Node is an in demand skill for modern developers.
+**Learning Objective:** By the end of this lesson, students will be able to explain why Node is an in-demand skill for modern developers.
 
 ## Enthusiasm for Node
 
@@ -9,7 +9,7 @@ Node has significant enthusiasm and adoption in the tech industry. Let's explore
 ### Developer flexibility
 
 - **JavaScript everywhere**: Node allows developers to use JavaScript on both the client and server sides. This flexibility makes it easier for developers to work across the full stack, streamlining development processes.
-- **Developer utilization**: Companies benefit from this by having a more flexible and efficient developer workforce, capable of handling both front-end and back-end development.
+- **Developer utilization**: Companies benefit from this by having a more flexible and efficient developer workforce capable of handling both front-end and back-end development.
 
 ### Business implications
 
@@ -18,7 +18,7 @@ Node has significant enthusiasm and adoption in the tech industry. Let's explore
 
 ## Node and performance
 
-One of the primary reasons for Node's popularity is its performance. Businesses can handle more traffic with less hardware, resulting in cost savings and improved scalability. To understand why Node is highly performant, it's essential to recognize the impact of input/output operations.
+One of the primary reasons for Node's popularity is its performance. Businesses can handle more traffic with less hardware, resulting in cost savings and improved scalability. Node's architecture heavily influences its performance.
 
 ### Asynchronous and event-driven architecture
 
