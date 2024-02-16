@@ -2,13 +2,13 @@
 
 **Learning objective:** By the end of this lesson, students will learn the basics of installing and using an npm package from the npm registry.
 
-## Installing packages in a project
+## Workign with packages in a project
 
 Now that your project has a `package.json` file, you can add packages from the npm registry!
 
 ### Installing a package
 
-We'll use a very popular a practical package called [validator.js](https://www.npmjs.com/package/validator) for our example. From the npm page, follow the link to their homepage on GitHub to review their documentation. You'll see that it offers a variety of string validation and sanitization methods, such as:
+We'll use a very popular and practical package called [validator](https://www.npmjs.com/package/validator) for our example. From the npm page, follow the link to their homepage on GitHub to review their documentation. You'll see that it offers a variety of string validation and sanitization methods, such as:
 
 - `isDate()`
 - `isEmail()`
@@ -17,7 +17,13 @@ We'll use a very popular a practical package called [validator.js](https://www.n
 
 These kinds of methods might be useful to us if were were collecting information from a user and needed to verify that it was in a specific format. While we could write this code ourselves, using a package someone else has already written saves us time!
 
-To install this package, use the following npm command:
+To add a package from npm to your project, use the command:
+
+```bash
+npm i <package-name>
+```
+
+Replacing `<package-name>` (including the `<` and `>`) with the name of the package. As an example, to install the validator package we've been discussing, run the following command now:
 
 ```bash
 npm i validator
@@ -27,15 +33,15 @@ npm i validator
 
 ### The installation process
 
-- **Package Download**: When you run `npm i validator`, NPM downloads the `ValidatorJS` package code from the npmjs.com registry to your local machine.
+- **Package download**: When you run `npm i validator`, NPM downloads the validator.js package code from the npm registry to your local machine.
 
 - **Where does this code live?**: The downloaded package code is stored in the `node_modules` directory that just appeared in your project folder. This is where all your installed packages are stored.
 
-- **Using the Package**: To use `ValidatorJS` in your code, you need to import it into your JavaScript files, typically with a `require` statement.
+- **Using the package**: To use validator.js in your code, you need to require it in your JavaScript files, with a `require` statement.
 
 ### Exploring `package.json` post-installation
 
-After installing a package, the `package.json` is updated to reflect this change:
+After installing a package, the dependencies object in `package.json` is updated to reflect this change:
 
 ```json
 {
@@ -50,19 +56,23 @@ After installing a package, the `package.json` is updated to reflect this change
 
 - **Dependencies**: The `dependencies` property now includes `validator`, with `^13.11.0` indicating the installed version.
 
-- **Version Management**: The version number helps NPM manage compatibility and updates. The caret `^` symbol allows minor updates that don't break compatibility.
+- **Version Management**: The version number helps NPM manage compatibility and updates. The caret `^` symbol allows minor updates that shouldn't break compatibility.
 
-## Can I delete or uninstall packages?
+## Uninstalling packages
 
-Yes, npm makes it easy to manage your packages and delete or reinstall when necessary.
-
-To **remove a package** from your project, use:
+npm makes it easy to manage your packages and delete or reinstall when necessary. To remove a package from your project, use:
 
 ```bash
 npm uninstall <package-name>
 ```
 
-This command not only deletes the package from the `node_modules` folder but also removes it from your `package.json` file, ensuring that your project and its dependency list remain synchronized.
+Replacing `<package-name>` (including the `<` and `>`) with the name of the package. As an example, to uninstall the validator package run this command now:
+
+```bash
+npm uninstall validator
+```
+
+This command not only deletes the package from your `node_modules` folder but also removes it from the `package.json` file, ensuring that your project and its dependency list remain synchronized.
 
 ## Reinstalling node modules
 

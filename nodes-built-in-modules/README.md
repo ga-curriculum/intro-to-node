@@ -6,7 +6,7 @@
 
 In the broad context of programming, a *module* is a reusable block of code. In Node specifically, a module refers to a JavaScript file that can be easily used in other JavaScript files, allowing for code reuse and modular programming.
 
-Think of modules as the rooms in a house, where each room serves a specific purpose. In a home, the kitchen is used for cooking meals. A living room offers space for relaxation and entertainment. A bedroom provides a place to rest.
+Think of modules as the rooms in a house, where each room serves a specific purpose. In a home, the kitchen is used for cooking meals. A living room offers space for relaxation and entertainment. A garage provides a place to store a vehicle.
 
 Each module in Node, like a room in a house, is designed for a particular set of tasks, making the overall structure of an application functional and organized. Like you wouldn't cook a meal in your bathroom, you won't use the same module to handle user events and connect to a database.
 
@@ -31,7 +31,7 @@ One of the methods, [`writeFile()`](https://nodejs.org/api/fs.html#fswritefilefi
 
 - `file`: A string specifying the file's name.
 - `data`: The content to be written to the file.
-- `callback`: A function that executes once the file is created.
+- `callback`: A function that executes after the file is created.
 
 Additionally, there's an `options` parameter, which is optional. This is communicated in the documentation by being enclosed in square brackets as shown here: `fs.writeFile(file, data[, options], callback)`. Using square brackets to indicate optional parameters is a common pattern in JavaScript documentation.
 
@@ -49,8 +49,8 @@ fs.writeFile('./hello.txt', 'hello, friend', () => {
 
 #### What's happening in the code
 
-- **Importing the `fs` module**: The `fs` module is imported, making its functionality accessible.
+- **Requiring the `fs` module**: The `fs` module is required, making its functionality accessible.
 - **Using `writeFile()`**: We utilize `writeFile()` to create a `hello.txt` file and write the text `hello, friend` into it.
 - **Callback function**: A callback function logs a message to the console upon file creation.
 
-This callback function in Node is conceptually similar to callbacks in browser event handling. However, here, it responds to a new type of event - the end of the file creation process. As we explore Node further, especially in web server application development, we'll encounter various Node-specific events and their associated callbacks.
+This callback function in Node is conceptually similar to callbacks in browser event handling. However, here, it responds to a new type of event - the end of the file creation process.
