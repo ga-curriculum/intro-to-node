@@ -70,11 +70,11 @@ export default myFunction;
 
 ### When to use CommonJS modules
 
-- **Node applications**: CommonJS is a great choice for building applications in Node. It's simple to use and works well because Node supports it by default.
+- **Node applications**: CommonJS is a great choice for building applications in Node because it's supported by default.
 - **Working on existing projects or legacy code**: If you're working on a project that already uses CommonJS, it's usually best to stick with it for consistency.
 
 ### When to use ECMAScript modules
 
-- **Web development**: ECMAScript modules are ideal for websites and web applications. They work well in modern web browsers and help organize your JavaScript code efficiently.
+- **Web development**: ECMAScript modules are the only option for websites and web applications.
 - **Starting new projects in Node**: If you're beginning a new project in Node and want to use the latest standards, ECMAScript modules are a good choice.
-- **Sharing code between the browser and server**: If you plan to use the same code in both a web browser and a Node server, ECMAScript modules can make this easier. ***CommonJS modules cannot be used for client side code.***
+- **Sharing code between the browser and server**: If you plan to use the same code in both a web browser and a Node server, ECMAScript modules make this possible. ***CommonJS modules cannot be used for client side code.***
