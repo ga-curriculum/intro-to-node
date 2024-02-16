@@ -13,7 +13,7 @@ From understanding the basics of Node and its ecosystem, including npm (Node Pac
 | [Setup](../setup/README.md)                                                         | Setting up the development environment.                              |
 | [Concepts](../concepts/README.md)                                                   | Understanding Node's use for server side JavaScript.                 |
 | [Executing JS with Node](../executing-js-with-node/README.md)                       | Using Node to execute JavaScript in the terminal.                    |
-| [Node's Built-in Modules](../nodes-built-in-modules/README.md)                      | Using Node's built-in modules `fs` and `http`.                       |
+| [Node's Built-in Modules](../nodes-built-in-modules/README.md)                      | Using Node's built-in `fs` module.                                   |
 | [Intro to npm](../intro-to-npm/README.md)                                           | Using Node Package Manager (npm) to install and manage dependencies. |
 | [Setting up a Node Application](../setting-up-a-node-application/README.md)         | Using `npm init` and understanding the `package.json`.               |
 | [Installing Node Packages](../installing-node-packages/README.md)                   | Installing a Node package from the npm registry.                     |
