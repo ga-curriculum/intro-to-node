@@ -4,26 +4,32 @@
 
 ## Using a Node package
 
-With the ValidatorJS package installed, let's explore how to import and use its validation methods in our project.
+We're going to make use of the validator package, so install it with:
 
-### Importing and using `ValidatorJS`
+```bash
+npm i validator
+```
+
+Let's explore how to require and use its validation methods in our project.
+
+### Requiring and using validator
 
 1. **Review package docs**:
    - Before using a package, it's important to consult its documentation. Review the [ValidatorJS documentation on NPM](https://www.npmjs.com/package/validator#no-es6) for detailed information and usage examples.
 
-2. **Import ValidatorJS**:
-   - At the top of `server.js`, import the package using CommonJS `require` syntax:
+2. **Requere validatorJS**: At the top of `server.js`, bring the package into this file using CommonJS `require` syntax:
 
      ```javascript
      const validator = require('validator');
      ```
+
      Using `const` ensures that the `validator` variable won't be reassigned accidentally.
 
-      > 📚 The *require* function starts by loading the specified module. If a **file path** is given for a module (such as `require('./myModule')`), it directly loads the file. If a **package name** is provided (such as`require('validator')`), Node looks for the module in the node_modules folder.
+      > 📚 The *require* function loads the specified module. If a **file path** is given for a module (such as `require('./myModule')`), it directly loads the file. If a **package name** is provided (such as`require('validator')`), Node looks for the module in the node_modules folder.
 
 <br>
 
-3. **Test a method**: Select a method from the `validator` docs - let's use `isEmail()`. We know from the docs that this method will return `true` or `false` depending on whether or not the value passed into this function is a valid email address. 
+1. **Test a method**: Select a method from the `validator` docs - let's use `isEmail()`. We know from the docs that this method will return `true` or `false` depending on whether or not the value passed into this function is a valid email address. 
 
    Let's try it:
 
@@ -34,7 +40,7 @@ With the ValidatorJS package installed, let's explore how to import and use its 
 
      This will log whether these provided strings are valid email addresses.
 
-4. **Run your code**: Run the test file in the terminal.
+2. **Run your code**: Run the test file in the terminal.
 
      ```bash
      node server.js
