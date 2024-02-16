@@ -1,6 +1,6 @@
 # ![Intro to Node - Requiring and Using Node Packages](./assets/hero.png)
 
-**Learning Objective:** By the end of this lesson, students will be able to require and test methods from an installed Node package.
+**Learning Objective:** By the end of this lesson, students will be able to require and use methods from an installed Node package.
 
 ## Using a Node package
 
@@ -16,7 +16,7 @@ Let's explore how to require and use its validation methods in our project.
 
 1. **Review package docs**: Before using a package, it's important to consult its documentation. Review the [validator documentation on npm](https://www.npmjs.com/package/validator) for detailed information and usage examples.
 
-2. **Require validator**: At the top of `server.js`, bring the package into this file using CommonJS `require` syntax:
+2. **Require validator**: At the top of `server.js`, bring the package into this file using CommonJS `require()` syntax:
 
    ```javascript
    const validator = require('validator');

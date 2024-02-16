@@ -35,7 +35,7 @@ npm i validator
 
 - **Package download**: When you run `npm i validator`, npm downloads the validator package code from the npm registry to your local machine.
 - **Where does this code live?**: The downloaded package code is stored in the `node_modules` directory that just appeared in your project directory. This is where all your installed packages are stored.
-- **Using the package**: To use validator in your code, you need to make it accessible within your JavaScript files, with a `require` statement.
+- **Using the package**: To use validator in your code, you need to make it accessible within your JavaScript files, with a `require()` statement.
 
 ### Exploring `package.json` post-installation
 

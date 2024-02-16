@@ -1,6 +1,6 @@
 # ![Intro to Node - Level Up - CJS vs ESM Modules](./assets/hero.png)
 
-**Learning Objective:** Understand the key differences between CommonJS (CJS) modules and ECMAScript modules (ESM) in JavaScript and when to use each type.
+**Learning Objective:** By the end of this lesson, students will understand the key differences between CommonJS (CJS) modules and ECMAScript modules (ESM) in JavaScript and when to use each type.
 
 ## CJS vs ESM
 
