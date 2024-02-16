@@ -47,8 +47,8 @@ Let's explore how to require and use its validation methods in our project.
 
 ## 🎓 You Do
 
-Validate a date! Using the [validator docs](https://www.npmjs.com/package/validator) as your guide, try out the `isDate()` method.
+Validate the casing of a string! Using the [validator docs](https://www.npmjs.com/package/validator) as your guide, try out the `isUppercase()` method.
 
-Test if `'2020-12-31'` is a valid date, and log the result.
+Test if `'HI THERE'` is uppercase, and log the result.
 
 > 🧠 Some large packages even have their own website with documentation. Usually, these packages will have a link to their website on their npm registry page or any GitHub documentation they may have.

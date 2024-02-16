@@ -85,7 +85,7 @@ As you install more dependencies, the `node_modules` directory can become large.
 - Because `package.json` contains all this essential information, there's no need to upload the actual Node modules to your Git repository. Instead, any developer can set up the project environment by running `npm i`. This command reads the `package.json` file and automatically downloads all the required Node modules.
 - When you clone a repository, the `node_modules` directory isn't included. Running `npm i` will recreate it by installing all packages listed in `package.json`.
 
-> 📚 To prevent Git from tracking your `node_modules`, add it to a `.gitignore` file. This file tells Git which directories and files to ignore.
+> 🧠 To prevent Git from tracking your `node_modules`, add it to a `.gitignore` file. This file tells Git which directories and files to ignore.
 
 ## Uninstalling packages
 
