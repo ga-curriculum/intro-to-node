@@ -24,7 +24,7 @@ npm hosts over 1.3 million Node packages in their *registry*.
 
 These are applications that other developers have written and published to `npm`. Many kinds of apps are available, from small utilities to massive frameworks. Here are a couple of examples:
 
-- **[validator.js](https://github.com/validatorjs/validator.js)**: Used to help validate string data. For example, it can be used to confirm that a string is formatted as a email address.
+- **[validator](https://www.npmjs.com/package/validator)**: Used to help validate string data. For example, it can be used to confirm that a string is formatted as a email address.
 - **[Express](https://www.npmjs.com/package/express)**: Facilitates the creation of web servers.
 
 npm is not just for installing external packages; it's also a platform for publishing your own packages to contribute back to the Node community.
