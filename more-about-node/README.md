@@ -1,4 +1,4 @@
-# ![Intro to Node - Level Up - More About Node](./assets/hero.png)
+# ![Intro to Node - More About Node](./assets/hero.png)
 
 **Learning Objective:** By the end of this lesson, students will be able to explain why Node is an in-demand skill for modern developers.
 
