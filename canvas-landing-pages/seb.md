@@ -10,23 +10,23 @@ From understanding the basics of Node and its ecosystem, including npm (Node Pac
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                                         | 1 min  | [link](https://generalassembly.wistia.com/medias/m2y4hos1bb) | Setting up the development environment.                              |
-| [Concepts](./concepts/README.md)                                                   | 3 min  | [link](https://generalassembly.wistia.com/medias/7p70ind0oi) | Understanding Node's use for server side JavaScript.                 |
-| [Executing JavaScript with Node](./executing-js-with-node/README.md)               | 6 min  | [link](https://generalassembly.wistia.com/medias/w21sfodro6) | Using Node to execute JavaScript in the terminal.                    |
-| [Node's Built-in Modules](./nodes-built-in-modules/README.md)                      | 7 min  | [link](https://generalassembly.wistia.com/medias/lxjyrbdx5b) | Using Node's built-in `fs` module.                                   |
-| [Intro to npm](./intro-to-npm/README.md)                                           | 3 min  | [link](https://generalassembly.wistia.com/medias/72h5zl9txu) | Using Node Package Manager (npm) to install and manage dependencies. |
-| [Setting up a Node Application](./setting-up-a-node-application/README.md)         | 4 min  | [link](https://generalassembly.wistia.com/medias/d455innpke) | Using `npm init` and understanding the `package.json` file.          |
-| [Installing Node Packages](./installing-node-packages/README.md)                   | 7 min  | [link](https://generalassembly.wistia.com/medias/s6hihxgaf8) | Installing a Node package from the npm registry.                     |
-| [Requiring and Using Node Packages](./requiring-and-using-node-packages/README.md) | 6 min  | [link](https://generalassembly.wistia.com/medias/bwpwhxtx80) | Requiring and using Node packages from npm in our own apps.          |
-| **Total content**                                                                  | 37 min | --                                                           |                                                                      |
+| [Setup](../setup/README.md)                                                         | 1 min  | [link](https://generalassembly.wistia.com/medias/m2y4hos1bb) | Setting up the development environment.                              |
+| [Concepts](../concepts/README.md)                                                   | 3 min  | [link](https://generalassembly.wistia.com/medias/7p70ind0oi) | Understanding Node's use for server side JavaScript.                 |
+| [Executing JavaScript with Node](../executing-js-with-node/README.md)               | 6 min  | [link](https://generalassembly.wistia.com/medias/w21sfodro6) | Using Node to execute JavaScript in the terminal.                    |
+| [Node's Built-in Modules](../nodes-built-in-modules/README.md)                      | 7 min  | [link](https://generalassembly.wistia.com/medias/lxjyrbdx5b) | Using Node's built-in `fs` module.                                   |
+| [Intro to npm](../intro-to-npm/README.md)                                           | 3 min  | [link](https://generalassembly.wistia.com/medias/72h5zl9txu) | Using Node Package Manager (npm) to install and manage dependencies. |
+| [Setting up a Node Application](../setting-up-a-node-application/README.md)         | 4 min  | [link](https://generalassembly.wistia.com/medias/d455innpke) | Using `npm init` and understanding the `package.json` file.          |
+| [Installing Node Packages](../installing-node-packages/README.md)                   | 7 min  | [link](https://generalassembly.wistia.com/medias/s6hihxgaf8) | Installing a Node package from the npm registry.                     |
+| [Requiring and Using Node Packages](../requiring-and-using-node-packages/README.md) | 6 min  | [link](https://generalassembly.wistia.com/medias/bwpwhxtx80) | Requiring and using Node packages from npm in our own apps.          |
+| **Total content**                                                                   | 37 min | --                                                           |                                                                      |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [CJS vs ESM Modules](./cjs-vs-esm-modules/README.md) | 4 min | [link](https://generalassembly.wistia.com/medias/bkdlrjk1i6) | Understanding CommonJS vs ESM module usage.              |
-| [More about Node](./more-about-node/README.md)       | 3 min | [link](https://generalassembly.wistia.com/medias/8w4ffwdfj0) | Understanding Node's popularity and widespread adoption. |
-| **Total Level Up content**                           | 7 min | --                                                           |                                                          |
+| [CJS vs ESM Modules](../cjs-vs-esm-modules/README.md) | 4 min | [link](https://generalassembly.wistia.com/medias/bkdlrjk1i6) | Understanding CommonJS vs ESM module usage.              |
+| [More about Node](../more-about-node/README.md)       | 3 min | [link](https://generalassembly.wistia.com/medias/8w4ffwdfj0) | Understanding Node's popularity and widespread adoption. |
+| **Total Level Up content**                            | 7 min | --                                                           |                                                          |
 
 ## References
 
