@@ -1,4 +1,7 @@
-# ![Intro to Node - Executing JavaScript with Node](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Node</span>
+  <span class="subhead">Executing Js with Node</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the key differences between executing JavaScript in a web browser and Node.
 

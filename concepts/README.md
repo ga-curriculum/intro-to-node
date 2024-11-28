@@ -1,4 +1,7 @@
-# ![Intro to Node - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Node</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand what Node.js is, its unique features, and its various applications in software development.
 

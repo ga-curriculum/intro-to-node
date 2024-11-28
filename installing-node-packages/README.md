@@ -1,4 +1,7 @@
-# ![Intro to Node - Installing Node Packages](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Node</span>
+  <span class="subhead">Installing Node Packages</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will learn the basics of installing and using an npm package from the npm registry.
 

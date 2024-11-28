@@ -1,4 +1,7 @@
-# ![Intro to Node - More About Node](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Node</span>
+  <span class="subhead">More About Node</span>
+</h1>
 
 **Learning Objective:** By the end of this lesson, students will be able to explain why Node is an in-demand skill for modern developers.
 

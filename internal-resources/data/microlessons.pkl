@@ -1,0 +1,74 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+executingJsWithNode = new Template.Microlesson {
+  friendlyName = "Executing Js with Node"
+  dirName = "executing-js-with-node"
+  type = "Content"
+  videoUrl = ""
+}
+
+nodesBuiltInModules = new Template.Microlesson {
+  friendlyName = "Nodes Built in Modules"
+  dirName = "nodes-built-in-modules"
+  type = "Content"
+  videoUrl = ""
+}
+
+introToNpm = new Template.Microlesson {
+  friendlyName = "Intro to Npm"
+  dirName = "intro-to-npm"
+  type = "Content"
+  videoUrl = ""
+}
+
+settingUpANodeApplication = new Template.Microlesson {
+  friendlyName = "Setting up a Node Application"
+  dirName = "setting-up-a-node-application"
+  type = "Content"
+  videoUrl = ""
+}
+
+installingNodePackages = new Template.Microlesson {
+  friendlyName = "Installing Node Packages"
+  dirName = "installing-node-packages"
+  type = "Content"
+  videoUrl = ""
+}
+
+requiringAndUsingNodePackages = new Template.Microlesson {
+  friendlyName = "Requiring and Using Node Packages"
+  dirName = "requiring-and-using-node-packages"
+  type = "Content"
+  videoUrl = ""
+}
+
+cjsVsEsmModules = new Template.Microlesson {
+  friendlyName = "Cjs vs Esm Modules"
+  dirName = "cjs-vs-esm-modules"
+  type = "Content"
+  videoUrl = ""
+}
+
+moreAboutNode = new Template.Microlesson {
+  friendlyName = "More About Node"
+  dirName = "more-about-node"
+  type = "Content"
+  videoUrl = ""
+}
+

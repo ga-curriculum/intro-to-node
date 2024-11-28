@@ -1,4 +1,7 @@
-# ![Intro to Node - Node's Built-in Modules](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Node</span>
+  <span class="subhead">Nodes Built in Modules</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the concept of modules by learning how to require and use core Node modules, such as `fs`, in their applications.
 
