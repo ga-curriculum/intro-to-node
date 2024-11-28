@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">Intro to Node</span>
-  <span class="subhead">Executing Js with Node</span>
+  <span class="subhead">Executing JavaScript with Node</span>
 </h1>
 
 **Learning objective:** By the end of this lesson, students will understand the key differences between executing JavaScript in a web browser and Node.

@@ -40,8 +40,8 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Executing Js with Node",
-          "dirName": "executing-js-with-node",
+          "friendlyName": "Executing JavaScript with Node",
+          "dirName": "executing-javascript-with-node",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -50,7 +50,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Nodes Built in Modules",
+          "friendlyName": "Node's Built-in Modules",
           "dirName": "nodes-built-in-modules",
           "type": "Content",
           "skill": "",
@@ -60,7 +60,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Intro to Npm",
+          "friendlyName": "Intro to npm",
           "dirName": "intro-to-npm",
           "type": "Content",
           "skill": "",
@@ -100,7 +100,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Cjs vs Esm Modules",
+          "friendlyName": "CJS vs ESM Modules",
           "dirName": "cjs-vs-esm-modules",
           "type": "Content",
           "skill": "",
@@ -169,8 +169,8 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Executing Js with Node",
-          "dirName": "executing-js-with-node",
+          "friendlyName": "Executing JavaScript with Node",
+          "dirName": "executing-javascript-with-node",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -179,7 +179,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Nodes Built in Modules",
+          "friendlyName": "Node's Built-in Modules",
           "dirName": "nodes-built-in-modules",
           "type": "Content",
           "skill": "",
@@ -189,7 +189,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Intro to Npm",
+          "friendlyName": "Intro to npm",
           "dirName": "intro-to-npm",
           "type": "Content",
           "skill": "",
@@ -229,7 +229,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Cjs vs Esm Modules",
+          "friendlyName": "CJS vs ESM Modules",
           "dirName": "cjs-vs-esm-modules",
           "type": "Level Up content",
           "skill": "",

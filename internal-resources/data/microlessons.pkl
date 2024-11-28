@@ -16,22 +16,22 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-executingJsWithNode = new Template.Microlesson {
-  friendlyName = "Executing Js with Node"
-  dirName = "executing-js-with-node"
+executingJavaScriptWithNode = new Template.Microlesson {
+  friendlyName = "Executing JavaScript with Node"
+  dirName = "executing-javascript-with-node"
   type = "Content"
   videoUrl = ""
 }
 
 nodesBuiltInModules = new Template.Microlesson {
-  friendlyName = "Nodes Built in Modules"
+  friendlyName = "Node's Built-in Modules"
   dirName = "nodes-built-in-modules"
   type = "Content"
   videoUrl = ""
 }
 
 introToNpm = new Template.Microlesson {
-  friendlyName = "Intro to Npm"
+  friendlyName = "Intro to npm"
   dirName = "intro-to-npm"
   type = "Content"
   videoUrl = ""
@@ -59,7 +59,7 @@ requiringAndUsingNodePackages = new Template.Microlesson {
 }
 
 cjsVsEsmModules = new Template.Microlesson {
-  friendlyName = "Cjs vs Esm Modules"
+  friendlyName = "CJS vs ESM Modules"
   dirName = "cjs-vs-esm-modules"
   type = "Content"
   videoUrl = ""
