@@ -38,8 +38,8 @@ From understanding the basics of Node and its ecosystem, including npm (Node Pac
 
 ### Course landing pages
 
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-node/canvas-landing-pages/seb)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-node/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/intro-to-node/canvas-landing-pages/seb)
+- [Fallback](https://ga-curriculum.github.io/intro-to-node/canvas-landing-pages/fallback)
 
 ### Resources
 
@@ -51,4 +51,4 @@ From understanding the basics of Node and its ecosystem, including npm (Node Pac
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
